@@ -13,7 +13,9 @@ class Main {
     System.out.println("\n Thank you for your input, here is the new seating chart:");
     index = 0;
     while (index < 15) // loop will stop after index = 15
-    
+    {
+      System.out.println(students[index] + ", sits at seat number " + seatNumbers[index] + "."); 
+      index++; //adds one to index to prevent infinite loop, to stop at 15
     }
   }
 }
