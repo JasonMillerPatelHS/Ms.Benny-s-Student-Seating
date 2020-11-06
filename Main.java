@@ -5,14 +5,15 @@ class Main {
     int[] seatNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}; //Which seats are open/avaliable
     String[] students = new String[15]; //adds 15 new elements with nothing assigned
 
-    int index = 0;
+    System.out.println("Seating Arrangement Program, Input Student's Names To Fill Up Your Seats");
+    int index;
 
     for(index = 0; index < students.length; index++) //loops until every seat has been filled with a student
     {
       System.out.println("Who will sit at seat " + seatNumbers[index] + "? (Put Student's name)"); //prints out the question with seat number
       students[index] = scan.nextLine(); //scans whole next line for user input
     }
-    
+
     System.out.println("\n Thank you for your input, here is the new seating chart:");
 
     index = 0;
