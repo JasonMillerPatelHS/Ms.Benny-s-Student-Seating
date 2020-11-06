@@ -8,7 +8,7 @@ class Main {
     for(index = 0; index < students.length; index++)
     {
       System.out.println("Who will sit at seat " + seatNumbers[index] + "? (Put Student's name)"); //prints out the question with seat number
-      students[index] = scan.next();
+      students[index] = scan.nextLine();
     }
     System.out.println("\n Thank you for your input, here is the new seating chart:");
     index = 0;
