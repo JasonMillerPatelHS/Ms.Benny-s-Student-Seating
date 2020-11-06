@@ -17,5 +17,7 @@ class Main {
       System.out.println(students[index] + ", sits at seat number " + seatNumbers[index] + "."); 
       index++; //adds one to index to prevent infinite loop, to stop at 15
     }
+    System.out.println("\n That is the new seating chart! \n If there is an error or you have made a mistake, run the program again!");
+    scan.close(); //ends the scanner
   }
 }
